@@ -37,10 +37,6 @@ const Products = () => {
         const newCart = [...cart, products] 
         setCart(newCart);
         addToDb(products.id)
-
-       
-
-     
         
 
         
