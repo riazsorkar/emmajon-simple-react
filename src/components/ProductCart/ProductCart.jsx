@@ -27,10 +27,8 @@ const ProductCart = (props) => {
 
             className='btn'
             // eslint-disable-next-line react/prop-types
-            onClick={() => handleAddToCart(props.totalProduct)} 
-
-        >Add to Cart</button> 
-
+            onClick={() => handleAddToCart(props.totalProduct)}  
+            >Add to Cart</button> 
         </div>
         
     );
